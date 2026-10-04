@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "configurePresets": [
+    {
+      "name": "macos-debug",
+      "displayName": "macOS Debug",
+      "inherits": "debug",
+      "generator": "Unix Makefiles",
+      "binaryDir": "${sourceDir}/build-macos-debug",
+      "cacheVariables": {
+        "FETCHCONTENT_SOURCE_DIR_IMGUI": "${sourceDir}/third_party/imgui"
+      }
+    }
+  ]
+}
